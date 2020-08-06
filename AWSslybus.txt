@@ -1,0 +1,176 @@
+1. Introduction to Amazon Web Services (AWS) & the Cloud
+What Is Cloud Computing & Advantages of Cloud Computing
+AWS Architecture and Terminology, AWS Regions and Availability Zones
+Understanding How AWS is Physically Set Up
+Understanding AWS, Understanding EC2 , Understanding Amazon Elastic Block Store (EBS) & Amazon Simple Storage Service (S3)
+Understanding VPCs, Understanding RDS
+Selecting the appropriate AWS service based on compute, data, or security requirements
+Cloud Service Models, Essential Characteristics & Cloud Computing Deployment Models
+LAB - Navigate the AWS Management Console
+
+2.AWS Elastic Compute Cloud- AWS EC2
+Understanding EC2 Instance Types, The Lifecycle of Instances
+Storage Options for EC2 Instances & Advanced EC2 Features
+LAB- Deploying an EC2 Linux and EC2 Windows Instance, Security Groups, Monitoring and Reporting
+
+3. AWS Storage Fundamentals
+High Level view of AWS Storage Solutions
+Amazon Simple Storage Service (S3), Amazon Glacier, Amazon Elastic Block Store (EBS), Amazon Cloudfront & AWS Storage Gateway
+Managing Instance Volumes Using EBS, EBS Snapshots and Replication
+LAB- AWS EBS- Creating and Deleting EBS Volume, Attaching & Detaching EBS Volume and Creating Snapshot etc.
+
+4. AWS Simple Storage Service (S3)
+AWS Simple Storage Service (S3) Essentials, S3 Bucket/Object Versioning And LifeCycle Policies
+Moving Objects Into S3, Handling Bucket And Object Permissions, Accessing S3 Objects, Protecting Data In S3
+AWS S3 Concepts & Advanced S3 Features, Hosting A Website In S3
+Amazon Simple Storage Service (S3), Amazon Elastic Block Store (EBS) and Amazon CloudFront storage solutions
+Amazon Glacier - Archives, Vaults, Vaults Locks & Data Retrieval
+Amazon Glacier versus Amazon Simple Storage Service (Amazon S3)
+LifeCycling with S3 and Glacier
+Getting Data into AWS – Snowball and Transfer Acceleration
+Introduction to CloudFront
+CORS, Bucket Policies, ACLs, and Encryption
+LAB- S3 Bucket Policy and Versioning
+LAB- Enabling S3's LifeCycle feature - Lifecycle Policies
+LAB- Creating A Static Hosting Website With S3
+
+5. Amazon IAM (Identity And Access Management)
+Understand the security measures AWS provides and key concepts of AWS Identity and Access Management (IAM)
+IAM Best Practices For New Accounts, Building IAM Policies & Using IAM Roles with EC2
+Active Directory Federation Role
+Web Identity Federation Role
+LAB- IAM - Creating and Managing User Access, Creating Users, Roles, and Groups
+LAB- Logging IAM events on CloudTrail
+
+6. Amazon VPC (Virtual Private Cloud) And Networking
+Introduction To VPC And AWS Networking, AWS Networking Architecture
+Building Your Own Custom VPC
+Subnets, Route Tables, Internet Gateways
+NATs Versus Bastion Hosts
+Network Access Control Lists (ACLs)
+Dynamic Host Configuration Protocol (DHCP) Option Sets
+Elastic IP Addresses (EIPs), Elastic Network Interfaces (ENIs)
+Endpoints & VPC Peering
+Security Groups, Network Access Control Lists (ACLs)
+Network Address Translation (NAT) Instances and NAT Gateways
+VPC Peering & VPC Flow Logs
+Virtual Private Gateways (VPGs), Customer Gateways (CGWs), and Virtual Private Networks (VPNs)
+VPC Networking, VPC Security
+VPC Access Methods & VPC Configuration, Extending The VPC To On-Premise Networks
+Integrate the VPC with On-Premise-Networks
+
+LAB- Building a Virtual Private Cloud from Scratch & Securing Your VPC
+LAB- Creating a NAT Instance in a VPC
+LAB- Configuring VPC Peering & Routing Between VPCs
+
+7. AWS Security Fundamentals
+Understanding AWS Security Measures
+AWS Shared Responsibility Model
+AWS Compliance Program
+AWS Global Infrastructure Security
+Physical and Environmental Security
+Layered Security, Security Groups & Network ACLs
+AWS Reports, Certifications, and Third-Party Attestations
+AWS Account Security Features
+AWS Credentials, Passwords
+Cloud Security Considerations & Security Best Practices for Clouds
+LAB- Security Group and Network ACLs
+LAB- Encrypting & Controlling Access to S3; Logging and Auditing Access and Actions
+
+8. Securing Data on AWS
+Shared Responsibility Model
+Protecting Data at Rest
+Protecting Data in Transit
+Securing Your Operating Systems and Applications
+How to use IAM to keep your data secure
+AWS Multi-Factor Authentication (AWS MFA)
+LAB- MFA (Multifactor Authentication) on Amazon Web Services
+
+9. Database Fundamentals for AWS
+Amazon RDS (Relational Database Service) Overview, Working With RDS
+Relational Database Service (RDS): Structure, Understanding RDS Multi-AZ Failover
+RDS Security Groups, Read Replicas with MySQL RDS Across Regions
+DyamoDB and NoSQL, DynamoDB vs Amazon RDS Database
+LAB- Setting Up RDS, Multi-AZ, Backups, and Read Replicas
+LAB - Creating DynamoDB Tables
+
+10. Understanding Backup Options
+Overview of Backup Services on AWS and Services that Include Backups
+Managing Backup And Disaster Recovery Processes,
+Quickly Recovering from Disasters
+S3 and RDS Backup Options, EBS Options, EC2 Backup Strategies
+LAB- S3, RDS Backup & EBS Options
+
+11. Load Balancing with Elastic Load Balancing (ELB)
+Introduction to ELB, Basic ELB concepts
+Internet-facing ELBs & VPC-facing ELBs
+LAB- Elastic Load Balancer Configurations for high availability
+LAB- SSL on Elastic Load Balancer
+
+12. AWS's Domain Name System
+Amazon Route 53 Overview
+Domain Name System (DNS) & Concepts
+Steps Involved in Domain Name System (DNS) Resolution
+Record Types & Supported Record Types
+Domain Registration
+Domain Name System (DNS) Service
+Hosted Zones
+Amazon Route 53 Enables Resiliency
+Domain name management, Route 53 Web Request Handling, Route53 and DNS Failover
+Simple Routing Example
+Weighted and Latency-Based Routing
+Failover and Geo-Based Routing
+LAB- Configuring Route 53 from the AWS Management Console
+LAB- Route 53 Complex Configurations
+
+13. Amazon CloudTrail
+Amazon CloudTrail Overview, Configuring CloudTrail In The Console
+LAB- Monitoring CloudTrail Events With CloudWatch
+
+14. Working with Amazon CloudFront
+Amazon CloudFront Key Concepts And Overview
+CloudFront architectural considerations, Dynamic Content With CloudFront, Streaming Media With CloudFront
+Monitoring CloudFront with CloudWatch
+LAB- Creating A Multi-Region CloudFront Solution
+
+15. Understand AWS management tools
+Amazon CloudWatch and AWS Trusted Advisor
+Monitoring with Amazon CloudWatch and Trusted Advisor
+LAB- Configuring CloudWatch from the AWS Management Console
+
+16. Active Directory and Amazon Web Services
+Setting up Simple Active Directory
+Setting up AWS Directory Service for Microsoft Active Directory
+Active Directory Connector
+AWS Hybrid Active Directory Environments
+LAB- Join EC2 Instance to the Domain (Simple AD & AWS AD) Windows
+
+17. High Availability And Fault Tolerant Systems on AWS
+Designing highly available, cost -efficient, fault-tolerant, scalable systems, Disaster Recovery And Fail-over Strategies
+Implement DR for systems based on RPO and RTO
+Implement Elasticity
+Scaling Vertically & Horizontally
+AutoScaling vs. Resizing
+Applying Auto Scaling And ELB To Create High Availability And Fault Tolerance
+Deploying, managing, and operating scalable, highly available, and fault tolerant systems on AWS
+LAB- Elastic Load Balancer With High Availability Hands On
+LAB- Configuring an Auto Scaling Application
+
+18. Monitoring Performance and Availability
+Creating CloudWatch Alarms to Monitor Amazon EC2 Instances & EBS for Performance and Availability
+Creating CloudWatch Alarms to Monitor the Elastic Load Balancer for Performance and Availability
+Creating CloudWatch Alarms to Monitor the RDS for Performance and Availability
+
+19. Troubleshooting
+EC2 Troubleshooting Scenarios
+VPC Troubleshooting Scenarios
+ELB Troubleshooting Scenarios
+Auto Scaling Troubleshooting Scenarios
+LAB- Troubleshooting Connectivity Issues
+
+20. Application Services
+Introduction to the Simple Queue Service (SQS)
+Introduction to the Simple Notification Service (SNS)
+Hands-on with SNS
+Example of Using SQS and SNS
+Introduction to the Simple Workflow Service (SWF)
