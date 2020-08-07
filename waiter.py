@@ -1,10 +1,10 @@
-import boto3,time
+import boto3, time
 
-aws_con=boto3.session.Session(profile_name="ankit")
-ec2_con_re=aws_con.resource(service_name="ec2",region_name='ap-south-1')
-ec2_con_cli=aws_con.client(service_name="ec2",region_name='ap-south-1')
+aws_con = boto3.session.Session(profile_name="ankit")
+ec2_con_re = aws_con.resource(service_name="ec2", region_name='ap-south-1')
+ec2_con_cli = aws_con.client(service_name="ec2", region_name='ap-south-1')
 
-my_inst_obg=ec2_con_re.Instance("i-0812426246f4aa70b")
+my_inst_obg = ec2_con_re.Instance("i-0812426246f4aa70b")
 
 print("Starting the instance")
 my_inst_obg.start()
